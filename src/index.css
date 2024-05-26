@@ -1,0 +1,25 @@
+/*utilizamos o css global para fazer pequenas alteraçoes em pontos especifico 
+em um arquivo so em alguns elementos mesmo nos utilizando o css Model */
+*{
+  /* aqui estamos fazendo o rezete basico da pagina assim fechando um padrao */
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Inter',sans-serif;
+  color: #FFF;
+}
+
+body{
+  /* definimos cor e utilizamos 2rem para afastar os elementos assim causando um espasamento interno*/
+  background-color:#0e1129 ;
+  padding: 2rem;
+}
+
+p{
+  /*deixamos todos paragrafos alinhandos  */
+  text-align: center;
+}
+a{
+  /*tiramos todos _ dos links */
+  text-decoration: none;
+}
