@@ -25,12 +25,12 @@ export default function Navbar() {
             </IconButton>
           <Typography variant="h6" component="div" sx={{ flexGrow: 1 }}>
             
-          <SiGithub /> Github
+          <SiGithub /> Github Finder
           </Typography>
                        
-          <Button className={classes.button}  color="inherit" component={Link} to= "/"  > Inicio</Button>
-          <Button className={classes.button}  color="inherit" component={Link} to="/about"> Sobre</Button>
-          <Button className={classes.button}  color="inherit" component={Link} to= "/colab"> Equipe</Button>
+          <Button   color="inherit" component={Link} to= "/"  > Inicio</Button>
+          <Button   color="inherit" component={Link} to="/about"> Sobre</Button>
+          <Button   color="inherit" component={Link} to= "/colab"> Equipe</Button>
         </Toolbar>
       </AppBar>
     </Box>

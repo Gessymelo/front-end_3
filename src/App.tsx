@@ -4,6 +4,7 @@ import { Outlet, NavLink, Navigate} from "react-router-dom"
 
 import classes from './App.module.css'
 import Navbar from "./components/Navbar"
+import Card from "./components/Card"
 
 
 function App() {
@@ -16,8 +17,9 @@ function App() {
     <div className={classes.app}>
       
        <Navbar/>
-      <h1>GitHub Finder</h1>
-      <Outlet/>
+       <br/>
+       <Outlet/>
+       
     </div> 
     
   )

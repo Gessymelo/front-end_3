@@ -11,8 +11,6 @@ import Loader from "../components/Loader";
 import { useState } from "react"; // Importa React e o hook useState
 
 
-
-
  const Home = () => {
     // Define o estado user para armazenar os dados do usuário, inicializado como null
     const [user, setUser] = useState <UserProps | null>(null);
