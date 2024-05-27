@@ -8,7 +8,9 @@ import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 
 // Pages quer estao sendo pegas da pasta routes
 import Home from "./routes/Home";
-import Repos from "./routes/Repos";
+
+import About from './routes/About';
+import Colaboradores from './routes/Colaboradores';
 
 // configuramos o objeto a patir do CreateBrowserRouter,difinido os componetes principal que irra abarca com outros elementos da page 
 const router = createBrowserRouter([
@@ -21,8 +23,13 @@ const router = createBrowserRouter([
       element: <Home/>,
     },
     {
-      path: "/repos/:userName",
-      element: <Repos />,
+      path: "/about",
+      element: <About />,
+    },
+    {
+      path: "/colab",
+      element:<Colaboradores/>,
+
     }
   ],
 },

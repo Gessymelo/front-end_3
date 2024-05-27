@@ -9,7 +9,7 @@ import Error  from "../components/Error";
 import Loader from "../components/Loader";
 
 import { useState } from "react"; // Importa React e o hook useState
-import Navbar from "../components/Navbar";
+
 
 
 
@@ -61,7 +61,7 @@ import Navbar from "../components/Navbar";
  // Renderiza o componente Home
   return (
     <div>
-        <Navbar/>
+       
         {/* Renderiza o componente Search, passando a função loadUser como prop */}
         <Search loadUser={loadUser}/>
         {isLoading && <Loader/>}
